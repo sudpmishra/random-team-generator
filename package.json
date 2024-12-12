@@ -1,0 +1,16 @@
+{
+  "name": "random-team-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sudpmishra/random-team-generator.git",
+  "author": "Sudeep Mishra <sudeep014@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["web", "api"],
+  "scripts": {
+    "start": "concurrently \"yarn workspace web start\" \"yarn workspace api start\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+yarn-error.log
+yarn-debug.log
+npm-debug.log
+
+# TypeScript
+*.tsbuildinfo
+*.tscache
+
+# React build output
+build/
+dist/
+
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# vscode editor settings
+.vscode/
